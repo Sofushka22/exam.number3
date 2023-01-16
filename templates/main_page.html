@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset = 'utf-8'>
+        <title>Задание 2</title>
+        <style>
+            * {
+                background-color:azure;
+            }
+            button {
+                background-color:rgb(24, 100, 241);
+                color: white;
+            }
+            input {
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <form method = 'POST'>
+            <label for = 'card_number'>Введите номер карты: </label>
+            <input type = 'text' name = 'card_number'>
+            <button type = 'submit'>Отправить</button>
+        </form>
+        {{card_number}}
+    </body>
+</html>
